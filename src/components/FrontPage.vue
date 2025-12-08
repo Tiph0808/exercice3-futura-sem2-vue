@@ -2,13 +2,12 @@
 const props = defineProps({
   infos: Object,
 })
+
+console.log(props.infos)
 </script>
 
 <template>
-  <div
-    class="front-page"
-    :style="{ backgroundImage: `url(${infos.image})`, backgroundSize: `contain` }"
-  >
+  <div :style="{ backgroundImage: `url(${infos.image})` }" class="container">
     <div>
       <h3>
         <span>{{ infos.category }}</span
@@ -16,14 +15,16 @@ const props = defineProps({
       </h3>
       <h1>{{ infos.title }}</h1>
     </div>
+
     <p>{{ infos.teaser }}</p>
   </div>
 </template>
 
 <style scoped>
-.front-page {
+.container {
   height: 550px;
-  border: 1px solid blue;
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding: 80px;
 }
 </style>

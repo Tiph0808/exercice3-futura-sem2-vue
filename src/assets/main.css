@@ -1,15 +1,10 @@
 @import './base.css';
 
-* {
-  box-sizing: border-box;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.wrapper {
-  width: 1300px;
-  margin: 30px auto;
-  background-color: aquamarine;
-}
-
-h3 h3 span:first-child {
-  padding-right: 10px;
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
 }

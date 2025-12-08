@@ -1,40 +1,51 @@
 <script setup></script>
 
 <template>
-  <div class="header">
-    <h1>FUTURA</h1>
-    <div class="fields">
-      <select>
-        <option>SCIENCES</option>
-      </select>
-      <select>
-        <option>SANTE</option>
-      </select>
-      <select>
-        <option>TECH</option>
-      </select>
-      <select>
-        <option>MAISON</option>
-      </select>
-      <select>
-        <option>PLANET</option>
-      </select>
-    </div>
+  <header>
+    <p>FUTURA</p>
+
+    <nav>
+      <p>SCIENCES <font-awesome-icon :icon="['fas', 'chevron-down']" /></p>
+
+      <p>SANTE <font-awesome-icon :icon="['fas', 'chevron-down']" /></p>
+      <p>TECH <font-awesome-icon :icon="['fas', 'chevron-down']" /></p>
+      <p>MAISON <font-awesome-icon :icon="['fas', 'chevron-down']" /></p>
+      <p>PLANETE <font-awesome-icon :icon="['fas', 'chevron-down']" /></p>
+    </nav>
+
     <button>JE M'ABONNE</button>
-  </div>
+  </header>
 </template>
 
 <style scoped>
-.header {
+header {
+  background: linear-gradient(45deg, #be80ff, #6325ff);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px 20px;
-  background: linear-gradient(to right, #be80ff, #6325ff);
+  height: 50px;
+  padding: 10px;
 }
 
-.fields {
+header > p {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+header > nav {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+}
+
+header > nav > p {
+  color: white;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 15px;
 }
 </style>
