@@ -1,7 +1,7 @@
 {
   "frontPage": {
     "id": 123,
-    "title": "La fin de l'enigme pour les îles magiques de Titan, la lune de Saturne ?",
+    "title": "La fin de l'enigme pour les « îles magiques » de Titan, la lune de Saturne ?",
     "teaser": "En 2014, les sondages radars de la sonde Cassini relevaient des structures transitoires et mysterieuses a la surface des mers et lacs d'hydrocarbure de Titan, la plus grosse lune de Saturne, et dans le systeme solaire. Une equipe de paléontologues pensent avoir la solution de l'enigme qui serait comparable au velage sur Terre",
     "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/imagescassini20130108pia16634-640.jpg",
     "category": "sciences",
@@ -11,7 +11,7 @@
   "articlesList": [
     {
       "id": 1,
-      "title": "La fin de l’énigme pour les « fils magiques » de Titan, la lune de Saturne ?",
+      "title": "La fin de l’énigme pour les «îles magiques» de Titan, la lune de Saturne ?",
       "image": "/img/lunes.jpg",
       "date": "15/10/2023",
       "category": "Exploration spatiale",
