@@ -5,7 +5,15 @@
 </template>
 
 <style scoped>
+footer {
+  height: 60px;
+}
+
 p {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

@@ -13,7 +13,7 @@ console.log(data.frontPage)
     <FrontPage :infos="data.frontPage" />
 
     <!--  on cree une div contenant toutes les cartes, autant de card que d'articles ds le tableau data.articlesList -->
-    <div class="container">
+    <div class="container articles-list">
       <ArticleCard
         v-for="articleInfos in data.articlesList"
         :key="articleInfos.id"
@@ -24,4 +24,16 @@ console.log(data.frontPage)
   <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  padding: 50px 0;
+}
+
+.articles-list {
+  /* border: 1px solid red; */
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+</style>

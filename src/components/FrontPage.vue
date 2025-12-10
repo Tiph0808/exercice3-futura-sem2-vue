@@ -31,11 +31,12 @@ console.log(props.infos)
 }
 
 .container > div {
+  /* border: 2px solid pink; */
   position: relative;
   margin-bottom: 70px;
 }
 
-.container > div ::before {
+.container > div::before {
   content: '';
   position: absolute;
   top: 0px;
@@ -70,7 +71,10 @@ h3 {
 }
 
 h3 span:first-child {
-  color: blueviolet;
+  background: linear-gradient(45deg, #be80ff, #6325ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3 span:last-child {
@@ -78,6 +82,7 @@ h3 span:last-child {
 }
 
 p {
+  /* border: 2px solid pink; */
   color: white;
   font-weight: 300;
   line-height: 22px;
